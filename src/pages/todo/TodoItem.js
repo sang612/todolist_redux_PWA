@@ -17,7 +17,7 @@ const TodoItem = (props) => {
     <Fragment>
       {!item.done ? (
         <div
-          className="item flex flex-row items-center bg-white p-5 hover:cursor-pointer"
+          className="item flex flex-row items-center bg-white p-5 hover:cursor-pointer break-all"
           onClick={() => {
             handleToggleItem(item);
           }}
@@ -27,7 +27,7 @@ const TodoItem = (props) => {
         </div>
       ) : (
         <div
-          className="item flex flex-row items-center bg-white p-5 hover:cursor-pointer"
+          className="item flex flex-row items-center bg-white p-5 hover:cursor-pointer break-all"
           onClick={() => {
             handleToggleItem(item);
           }}
